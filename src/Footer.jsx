@@ -6,14 +6,14 @@ import axios from 'axios';
 export default function Footer() {
   const handleEmailChange = (e) => {
     setEmail({
-      ...Email,
+      ...email,
       email: e.target.value,
     });
   };
-const [Email,setEmail]=useState({email:""})
+const [email,setEmail]=useState({email:""})
 const handleSubmit = (e) => {
   e.preventDefault();
-  axios.post("http://localhost:3009/footer",Email)
+  axios.post("http://localhost:3009/footer",email)
   .then(response=>{
     setEmail(response.data);
     console.log(response.data)
@@ -52,7 +52,7 @@ const handleSubmit = (e) => {
 <h3 className="para">Receive the latest news from us.</h3>
 
 <div className='blbl'>
-      <input type="text" onChange={handleEmailChange} value={Email.email} className='wwq'  />
+      <input type="text" onChange={handleEmailChange} value={email.email} className='wwq'  />
       <div ><BsSend className='q' onClick={handleSubmit}/></div>
     </div>
  

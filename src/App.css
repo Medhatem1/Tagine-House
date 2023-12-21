@@ -350,6 +350,9 @@ h1 {
   padding-left: 400px;
   color: white;
 }
+.contact{
+  padding-bottom: 100px;
+}
 .FORM {
   display: flex;
   color: #fffdd0;
@@ -358,8 +361,10 @@ h1 {
 .form-container {
   display: flex;
   flex-direction: column;
+  padding-left: 100px;
 }
 form {
+  padding-top: 70px;
   display: flex;
   flex-direction: column;
 }
@@ -398,6 +403,7 @@ form {
 .contact-desc {
   font-size: 30px;
   padding-bottom: 150px;
+  padding-left: 100px;
 }
 ::placeholder {
   color: whitesmoke;
@@ -423,7 +429,7 @@ textarea {
 .contact-button:hover {
   color: rgb(240, 181, 81);
   background-color: black;
-  transition: 0.7s;
+  transition: 1s;
   font-size: 18px;
   cursor: pointer;
   border: rgb(240, 181, 81) solid 1px;
