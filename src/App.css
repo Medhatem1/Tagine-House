@@ -1,0 +1,929 @@
+.App {
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: "Elsie";
+  background-image: url("https://patiotime.loftocean.com/demo6/wp-content/uploads/sites/4/2022/04/section-bg-6-large-4.jpg");
+  background-position: 50px;
+}
+.x {
+  padding: 60px;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.ups {
+  height: 800px;
+  width: 100%;
+  background-image: url("https://img.freepik.com/free-photo/fresh-gourmet-meal-beef-taco-salad-plate-generated-by-ai_188544-13382.jpg?w=1060&t=st=1701547714~exp=1701548314~hmac=4ff70136a1f73b4e6e29116caa8e4febb12d34c0c83980cd1f664ccc0efcde01");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-title {
+  color: white;
+  padding-left: 150px;
+  font-size: 80px;
+}
+p {
+  font-size: 40px;
+  color: aliceblue;
+}
+.homepara {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+.menu-button {
+  background-color: rgb(240, 181, 81);
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  color: black;
+  font-weight: 500;
+  justify-content: center;
+  display: flex;
+  padding: 9px 40px;
+  font-size: 28px;
+  margin-right: 250px;
+}
+.menu-button:hover {
+  cursor: pointer;
+  color: rgb(240, 181, 81);
+  background-color: black;
+  transition: 0.7s;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  position: fixed;
+  z-index: 9;
+  width: 1300px;
+  background-color: #434445;
+}
+nav {
+  display: flex;
+  margin-left: 2px;
+}
+h1 {
+  margin-right: 450px;
+}
+.op {
+  display: flex;
+  justify-content: space-between;
+}
+.navlink {
+  text-decoration: none;
+  padding: 10px;
+}
+.navlinka {
+  text-decoration: none;
+  padding: 10px 30px 10px 30px;
+  background-color: rgb(240, 181, 81);
+  border-radius: 110px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.q {
+  color: bisque;
+  font-size: 30px;
+  margin: 5px;
+  justify-content: end;
+}
+
+.q:hover {
+  cursor: pointer;
+}
+.footer {
+  background-image: url("https://images.pexels.com/photos/1703317/pexels-photo-1703317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  border: solid;
+  padding-top: 100px;
+  margin-top: 50px;
+}
+.upper {
+  display: grid;
+  grid-template-columns: 400px 1fr 1fr;
+}
+.navlink:hover {
+  text-decoration: wavy rgb(240, 181, 81);
+  transition: 0.5s;
+  font-weight: 500;
+  background-color: #353935;
+  border-radius: 20px;
+  color: rgb(240, 181, 81);
+}
+.navlinka:hover {
+  color: rgb(240, 181, 81);
+  background-color: darkslategrey;
+  transition: 0.3s;
+}
+.bg {
+  background-size: cover;
+}
+.para {
+  color: #818589;
+}
+.title {
+  color: #daa520;
+}
+.lower {
+  color: #818589;
+  text-align: center;
+}
+.middle {
+  padding-left: 70px;
+}
+.App {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.awl {
+  text-align: center;
+}
+.sm {
+  margin: ;
+}
+.socialmedia {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+.zz {
+  border: none;
+  background-color: #818589;
+  width: 200px;
+  height: 40px;
+}
+.downs {
+  color: #fffdd0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.food {
+  border-radius: 0px;
+  width: 300px;
+  height: 200px;
+}
+
+.left {
+  padding-left: 10px;
+}
+.images {
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+.lunch {
+  padding: 0 100px 0 100px;
+  flex-direction: column;
+}
+.textf {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  background-color: black;
+  color: rgb(240, 181, 81);
+  height: 200px;
+  font-family: serif;
+  width: 650px;
+}
+
+.lwl {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+}
+.tani {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1000px;
+  padding-left: 300px;
+}
+.rab3 {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1000px;
+  padding-left: 300px;
+}
+.talt {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+}
+
+.phrase {
+  font-size: 40px;
+  text-align: center;
+}
+.header {
+  font-size: 30px;
+  padding-top: 10px;
+}
+.downpara {
+  text-align: center;
+  pad: 10px;
+}
+
+.lunch:hover {
+  cursor: pointer;
+}
+.spica {
+  padding-top: 160px;
+}
+.v2 {
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+.mid {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+.blbl {
+  display: flex;
+}
+.mid-title {
+  text-align: center;
+  font-size: 50px;
+  color: #fffdd0;
+}
+.diva {
+  display: flex;
+  padding: 20px;
+}
+.test {
+  border: #353935 solid 2px;
+  padding-left: 20px;
+  text-align: center;
+  background-color: rgb(21, 22, 22);
+  border-radius: 5px;
+  height: 160px;
+}
+.ico {
+  text-align: center;
+  font-size: 40px;
+  color: #daa520;
+}
+.ico:hover {
+  animation: infinite 0.9s bounce;
+}
+.desc {
+  font-size: 20px;
+}
+.titl {
+  padding-bottom: 10px;
+}
+.location {
+  color: #fffdd0;
+  display: flex;
+  position: relative;
+  padding-top: 80px;
+}
+
+.photo {
+  width: 300px;
+  height: 300px;
+  border-radius: 3px;
+}
+.head1 {
+  font-size: 25px;
+  color: rgb(240, 181, 81);
+  font-weight: 500;
+}
+.head2 {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-weight: 400;
+}
+.description {
+  font-size: 20px;
+}
+.txt {
+  text-align: center;
+}
+.buttonw {
+  background-color: chocolate;
+  width: 160px;
+  height: 30px;
+  border-radius: 2px;
+  margin: 30px;
+  margin-left: 190px;
+}
+.buttonw:hover {
+  cursor: pointer;
+  font-size: 20px;
+  width: 140px;
+  transition: 1s;
+  height: 40px;
+}
+.photos {
+  display: flex;
+}
+.p1 {
+  padding: 20px;
+}
+.v2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+/*contact us css*/
+.contact-image {
+  background-image: url("https://up2client.com/envato/bermiz-restaurant/main-file/assets/images/contact-us/contact-bg.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+  padding-top: 150px;
+}
+.contact-title {
+  font-size: 100px;
+  padding-left: 400px;
+  color: white;
+}
+.FORM {
+  display: flex;
+  color: #fffdd0;
+  padding-left: 20px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.input-con {
+  margin: 20px;
+  padding: 20px;
+  background-color: #353935;
+  border: none;
+
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 15px;
+}
+.contact-button {
+  width: 160px;
+  height: 30px;
+  background-color: rgb(240, 181, 81);
+  margin: 30px 0 30px 90px;
+  color: black;
+  font-weight: 500;
+}
+.form-image {
+  margin-left: 300px;
+}
+.FORM {
+  display: flex;
+  justify-content: center;
+}
+.question {
+  font-size: 50px;
+  color: azure;
+  text-align: center;
+  padding-top: 40px;
+}
+.contact-desc {
+  font-size: 30px;
+  padding-bottom: 150px;
+}
+::placeholder {
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 15px;
+}
+.qll {
+  display: flex;
+  flex-direction: ;
+}
+textarea {
+  background-color: #353935;
+  margin: 10px;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 15px;
+}
+.input-con:hover {
+  border-color: rgb(240, 181, 81);
+}
+.contact-button:hover {
+  color: rgb(240, 181, 81);
+  background-color: black;
+  transition: 0.7s;
+  font-size: 18px;
+  cursor: pointer;
+  border: rgb(240, 181, 81) solid 1px;
+}
+.gps {
+  color: #fffdd0;
+  display: flex;
+  padding-bottom: 300px;
+}
+.answer {
+  font-size: 20px;
+  color: rgb(198, 198, 198);
+  font-weight: 400;
+}
+.location-desc {
+  font-size: 50px;
+  color: azure;
+  padding-bottom: 50px;
+}
+.gps-para {
+  color: #fffdd0;
+  font-size: 25px;
+  padding-right: 50px;
+}
+.gps-up {
+  margin-top: 50px;
+  padding-left: 20px;
+}
+.gps-pl {
+  padding-top: 30px;
+  font-size: 20px;
+}
+/*About*/
+.about-img {
+  background-image: url("https://up2client.com/envato/bermiz-restaurant/main-file/assets/images/contact-us/contact-bg.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+  padding-top: 150px;
+  font-size: 100px;
+  padding-left: 400px;
+  color: white;
+}
+.services {
+  color: azure;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.service-tile {
+  font-size: 50px;
+  text-align: center;
+  padding: 80px;
+  color: #fffdd0;
+}
+.thefour {
+  display: flex;
+}
+.one {
+  text-align: center;
+}
+.catering {
+  font-size: 30px;
+  padding: 10px;
+}
+.icona {
+  font-size: 60px;
+  color: rgb(240, 181, 81);
+  border: rgb(240, 181, 81) 1.5px solid;
+  border-radius: 40px;
+}
+.cater-para {
+  padding: 0 20px;
+  color: #818589;
+}
+.whoweare {
+  color: aliceblue;
+  text-align: center;
+}
+.weare {
+  font-size: 50px;
+  color: #fffdd0;
+  padding-top: 50px;
+}
+.are {
+  font-size: 30px;
+  padding: 30px 100px;
+  font-weight: 20;
+}
+.hi {
+  text-align: center;
+  padding: 80px;
+}
+.cards {
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 200px 0;
+  font-size: 30px;
+  padding-top: ;
+}
+.card {
+  border: #39280a 4px solid;
+  height: 150px;
+  width: 200px;
+  padding: 20px 10px;
+  background-color: rgb(18, 18, 26);
+  transform-style: preserve-3d;
+}
+.api,
+.num {
+  color: rgb(240, 181, 81);
+}
+.card:hover {
+  background-color: rgb(48, 19, 2);
+  transition: 0.9s;
+  transform: rotateY(360deg);
+}
+/*carousel*/
+
+/* Add or update these styles in your CSS file */
+.slick-slider {
+  width: 80%; /* Set the width of the carousel */
+  margin: 0 auto; /* Center the carousel */
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 24px; /* Customize the arrow size */
+}
+.div {
+  color: #fffdd0;
+  padding: 100px;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 100px;
+}
+.divaa {
+  width: 200px;
+  height: 400px;
+  margin-bottom: 100px;
+}
+.h1h1 {
+  color: azure;
+  font-size: 40px;
+  text-align: center;
+  padding: 50px 0 0 0;
+}
+.aas {
+  height: 400px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+.carousel-slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-text {
+  position: absolute;
+  bottom: 200px;
+  left: 100px;
+  color: white;
+  font-size: 18px;
+  top: 30px;
+}
+.big {
+  font-size: 60px;
+  font-weight: 600;
+}
+.gib {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: rgba(245, 245, 245, 0.731);
+  font-weight: 500;
+}
+.button-car {
+  background-color: rgb(240, 181, 81);
+  width: 140px;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  margin-left: 800px;
+}
+.button-car:hover {
+  cursor: pointer;
+  color: rgb(240, 181, 81);
+  background-color: black;
+  transition: 0.5s;
+  font-size: 20px;
+}
+
+/*RESERVATION*/
+
+.reserv-img {
+  background-image: url("https://up2client.com/envato/bermiz-restaurant/main-file/assets/images/contact-us/contact-bg.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+  padding-top: 150px;
+  font-size: 100px;
+  padding-left: 370px;
+  color: white;
+}
+.reservation {
+  color: azure;
+  text-align: center;
+  padding-top: 50px;
+}
+.mini-title {
+  font-size: 30px;
+  color: rgb(240, 181, 81);
+}
+.booking {
+  font-size: 50px;
+  padding: bottom 50px;
+}
+.book-descr {
+  font-size: 20px;
+  color: #818589;
+  padding: 30px;
+}
+.request {
+  padding: 20px;
+  color: #818589;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputs1,
+.inputs2,
+.message {
+  display: flex;
+  justify-content: space-between;
+}
+.kk {
+  margin: 20px;
+  width: 250px;
+  height: 50px;
+  background-color: #353935;
+  border: none;
+  border-radius: 2px;
+  color: azure;
+}
+.kk,
+.kkk::placeholder {
+  color: azure;
+}
+.kkk {
+  border-radius: 2px;
+  border: none;
+}
+.rev {
+  margin-bottom: 100px;
+}
+.button-reser {
+  background-color: rgb(240, 181, 81);
+  color: black;
+  border: black 1px solid;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  padding-top: 23px;
+  margin: 20px 530px;
+}
+.button-reser:hover {
+  transition: 1s;
+  border: 1px solid rgb(240, 181, 81);
+  background-color: black;
+  color: rgb(240, 181, 81);
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.msg {
+  background-image: url("https://patiotime.loftocean.com/demo6/wp-content/uploads/sites/4/2022/04/section-bg-6-large-4.jpg");
+}
+.h {
+  color: aliceblue;
+}
+.as {
+  width: 600px; /* Adjust the width as needed */
+  height: 600px;
+}
+
+/*MENU*/
+.menu {
+  background-image: url("https://patiotime.loftocean.com/demo6/wp-content/uploads/sites/4/2022/04/section-bg-6-large-4.jpg");
+  color: aliceblue;
+}
+.heado {
+  background-image: url("https://up2client.com/envato/bermiz-restaurant/main-file/assets/images/contact-us/contact-bg.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+  padding-top: 150px;
+  font-size: 100px;
+  padding-left: 370px;
+  color: white;
+}
+.menu-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+.lala {
+  border: #39280a 4px solid;
+  height: 210px;
+  width: 200px;
+  padding: 30px 10px;
+  margin: 60px 0;
+  background-color: rgb(18, 18, 26);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.mapping1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 50px 20px 20px 50px;
+}
+.price {
+  font-size: 30px;
+  padding-top: 20px;
+}
+.dish {
+  color: rgb(145, 105, 4);
+  text-align: center;
+}
+/*DASHBOARD*/
+.dashboard-one {
+  color: azure;
+  padding: 10px;
+  display: flex;
+  height: 80px;
+}
+.name-dash {
+  width: 200px;
+  background-color: #39280a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 8px;
+}
+.description-dash {
+  width: 400px;
+  background-color: #6a4b15;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-left: 10px;
+  font-family: serif;
+  font-size: 18px;
+}
+.price-dash {
+  width: 100px;
+  background-color: #6d5326;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 20px;
+  font-family: serif;
+}
+
+.dashi-title {
+  color: aliceblue;
+  text-align: center;
+  padding-left: 200px;
+}
+.dash {
+  background-color: rgb(79, 4, 4);
+  border: none;
+  color: azure;
+  width: 80px;
+  font-weight: 600;
+}
+.dashi {
+  padding-top: 100px;
+  padding-left: 150px;
+}
+.dashy {
+  background-color: rgb(9, 44, 9);
+  border: none;
+  color: azure;
+  width: 80px;
+  font-weight: 600;
+}
+.dashy:hover,
+.dash:hover {
+  font-size: 15px;
+  transition: 0.5s;
+  cursor: pointer;
+  font-weight: 600;
+}
+.head {
+  background-image: url("https://up2client.com/envato/bermiz-restaurant/main-file/assets/images/contact-us/contact-bg.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+  padding-top: 150px;
+  font-size: 100px;
+  padding-left: 370px;
+  color: white;
+}
+.login {
+  color: wheat;
+  width: 400px;
+  height: 430px;
+  display: flex;
+  margin: 100px 400px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid #daa520 4px;
+  background-color: rgb(18, 18, 26);
+border-radius: 96px;
+}
+.log {
+  font-size: 40px;
+}
+.email,
+.password {
+  margin: 20px;
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: #353935;
+  color:azure;
+  font-size: 15px;
+  border-radius: 26px;
+  font-weight: 400;
+}
+.button-login {
+  background-color: rgb(240, 181, 81);
+  color: black;
+  border: black 1px solid;
+  font-size: 20px;
+  width: 100px;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+}
+.email::placeholder,
+.password::placeholder {
+  padding-left: 10px;
+}
+.button-login:hover{
+color: rgb(240, 181, 81);
+background-color: black;
+transition: 0.61s;
+cursor: pointer;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+.h2{
+  color:#353935
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.modal-content h2 {
+  margin-bottom: 10px;
+}
+input.editable {
+  border: 2px solid #007bff; /* Add your preferred border style */
+  /* Add any other styles to visually indicate it's editable */
+}
+.leaflet-container {
+  width: 100%;
+  height: 100vh;
+}
